@@ -1,91 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Murilo - Portfólio Dinâmico</title>
-    <meta name="description" content="Portfólio de projetos atualizado dinamicamente via GitHub.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Phosphor Icons -->
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portifolio Murilo</title>
 </head>
+<header class="navbar">
+  <div class="container">
+    <a href="#" class="logo">Murilo<span>.</span></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="https://github.com/SamiLM4" target="_blank" rel="noopener noreferrer"><i
+              class="ph ph-github-logo"></i> GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
 <body>
-    <div class="background-effects">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-    </div>
-
-    <header class="navbar">
-        <div class="container">
-            <a href="#" class="logo">Murilo<span>.</span></a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="https://github.com/SamiLM4" target="_blank" rel="noopener noreferrer"><i
-                                class="ph ph-github-logo"></i> GitHub</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <section id="home" class="hero">
-            <div class="container hero-content">
-                <div class="glass-card profile-card">
-                    <img src="https://github.com/SamiLM4.png" alt="Murilo Profile" class="profile-img">
-                    <h1>Olá, eu sou <span>Murilo</span></h1>
-                    <p class="subtitle">Desenvolvedor & Criador de Soluções</p>
-                    <p class="bio">Explorando o mundo do desenvolvimento de software e criando projetos incríveis.
-                        Abaixo, você pode conferir meus repositórios mais recentes atualizados em tempo real do GitHub.
-                    </p>
-                    <div class="hero-actions">
-                        <a href="#projects" class="btn btn-primary">Ver Meus Projetos <i
-                                class="ph ph-arrow-down"></i></a>
-                        <a href="https://github.com/SamiLM4" target="_blank" rel="noopener noreferrer"
-                            class="btn btn-secondary">Acessar GitHub <i class="ph ph-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="projects-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Meus <span>Projetos</span></h2>
-                    <p>Repositórios públicos puxados diretamente da minha conta no GitHub.</p>
-                </div>
-
-                <div id="loading" class="loading-state">
-                    <div class="spinner"></div>
-                    <p>Carregando projetos de @SamiLM4...</p>
-                </div>
-
-                <div id="projects-grid" class="projects-grid">
-                    <!-- Projects will be injected here via JavaScript -->
-                </div>
-
-                <div id="pagination" class="pagination">
-                    <!-- Pagination will be injected here -->
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container footer-content">
-            <p>&copy; 2026 Murilo. Criado com <i class="ph-fill ph-heart" style="color: var(--accent);"></i> e
-                tecnologias
-                web modernas.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 
 </html>
