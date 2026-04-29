@@ -2,7 +2,8 @@
     --bg-color: #0a0a0f;
     --text-primary: #ffffff;
     --text-secondary: #a0a0b0;
-    --accent: #6366f1; /* Indigo */
+    --accent: #6366f1;
+    /* Indigo */
     --accent-hover: #4f46e5;
     --card-bg: rgba(255, 255, 255, 0.03);
     --card-border: rgba(255, 255, 255, 0.08);
@@ -67,8 +68,13 @@ body {
 }
 
 @keyframes float {
-    0% { transform: translate(0, 0) scale(1); }
-    100% { transform: translate(10%, 10%) scale(1.1); }
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    100% {
+        transform: translate(10%, 10%) scale(1.1);
+    }
 }
 
 .container {
@@ -286,7 +292,9 @@ body {
 }
 
 @keyframes spin {
-    to { transform: rotate(360deg); }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* Projects Grid */
@@ -470,8 +478,37 @@ footer {
     .profile-card h1 {
         font-size: 2.5rem;
     }
-    
+
     .nav-links {
         display: none;
     }
+}
+
+.certificates-section {
+    padding: 6rem 0;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.carousel-btn {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    color: var(--text-primary);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.certificate-viewer {
+    width: 800px;
+    max-width: 90%;
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    overflow: hidden;
 }

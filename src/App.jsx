@@ -1,5 +1,6 @@
 import Hero from "./components/Hero"
 import Projects from "./components/Projects"
+import Certificates from "./components/Certificates"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
       <Hero />
       <Projects />
+      <Certificates />
     </>
   )
 }
