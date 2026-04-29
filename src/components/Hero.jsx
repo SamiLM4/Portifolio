@@ -34,6 +34,10 @@ function Hero() {
                             Acessar GitHub
                         </a>
 
+                        <a href="#certificates" className="btn btn-primary">
+                            Ver Meus Certificados
+                        </a>
+
                     </div>
                 </div>
             </div>

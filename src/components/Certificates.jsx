@@ -53,7 +53,7 @@ export default function Certificates() {
 
     return (
 
-        <section className="certificates-section">
+        <section id="certificates" className="certificates-section">
 
             <div className="container">
 
