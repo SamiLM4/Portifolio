@@ -38,6 +38,16 @@ function Hero() {
                             Ver Meus Certificados
                         </a>
 
+                        <a
+                            href="/curriculo/Curriculo_Murilo.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-secondary">
+
+                            Currículo
+                        </a>
+
+
                     </div>
                 </div>
             </div>
