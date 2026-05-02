@@ -26,19 +26,6 @@ function Hero() {
                         </a>
 
                         <a
-                            href="https://github.com/SamiLM4"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn btn-secondary"
-                        >
-                            Acessar GitHub
-                        </a>
-
-                        <a href="#certificates" className="btn btn-primary">
-                            Ver Meus Certificados
-                        </a>
-
-                        <a
                             href="/curriculo/Curriculo_Murilo.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -47,6 +34,27 @@ function Hero() {
                             Currículo
                         </a>
 
+                        <a href="#certificates" className="btn btn-primary">
+                            Ver Meus Certificados
+                        </a>
+
+                        <a
+                            href="https://github.com/SamiLM4"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-secondary"
+                        >
+                            Acessar GitHub
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/murilo-gon%C3%A7alves-de-lima-dev/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-secondary"
+                        >
+                            Acessar Linkedin
+                        </a>
 
                     </div>
                 </div>
