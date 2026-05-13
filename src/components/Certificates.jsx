@@ -32,6 +32,10 @@ const certificates = [
     {
         name: "Automacao N8N",
         file: "/certificados/n8n.pdf"
+    },
+    {
+        name: "Digital Tech Show 2026",
+        file: "/certificados/DigitalTechShow2k26.pdf"
     }
 ]
 
