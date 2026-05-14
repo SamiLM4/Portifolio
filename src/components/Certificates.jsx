@@ -36,6 +36,10 @@ const certificates = [
     {
         name: "Digital Tech Show 2026",
         file: "/certificados/DigitalTechShow2k26.pdf"
+    },
+    {
+        name: "SS&C AI CHAT: Prompt Engineering Introduction",
+        file: "/certificados/IAPrompt.pdf"
     }
 ]
 
