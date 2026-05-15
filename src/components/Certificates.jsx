@@ -40,6 +40,10 @@ const certificates = [
     {
         name: "SS&C AI CHAT: Prompt Engineering Introduction",
         file: "/certificados/IAPrompt.pdf"
+    },
+    {
+        name: "Introdução à Automação Inteligente - Blue Prism",
+        file: "/certificados/IntroducaoAutomacaoInteligenteBP.pdf"
     }
 ]
 
